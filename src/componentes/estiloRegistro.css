@@ -1,0 +1,33 @@
+.registro-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(81, 145, 254);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  margin: 0 auto; /* Centra el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: rgb(60, 125, 230); /* Color de fondo al pasar el ratón */
+}
